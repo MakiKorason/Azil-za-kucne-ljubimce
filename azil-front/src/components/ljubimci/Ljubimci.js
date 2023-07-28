@@ -16,7 +16,7 @@ const Ljubimci=()=>{
   const routeParams = useParams();
 
   const getData = () => {
-    getKategorije();
+    getKategorije(0);
     getLjubimci(0);
 
   }
